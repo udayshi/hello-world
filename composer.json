@@ -8,9 +8,15 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0"
+    },
     "autoload": {
-        "psr-0": {
+        /*"psr-0": {
             "HelloWorld": "src/"
+        }*/
+        "psr-4": {
+            "HelloWorld\\": "src/HelloWorld/"
         }
     }
 }

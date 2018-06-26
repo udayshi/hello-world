@@ -1,0 +1,34 @@
+{
+  "name": "uday.shiwakoti/ctest",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Uday Shiwakoti",
+      "email": "shiuday@gmail.com"
+    }
+  ],
+
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://github.com"
+    }
+  ],
+  "require": {
+    "udayshi/hello-world": "*"
+  },
+  "require-dev" : {},
+  "scripts": {
+    "post-install-cmd": [
+      "bash ./scripts/symlinks.sh"
+    ],
+    "post-update-cmd": [
+      "bash ./scripts/symlinks.sh"
+    ]
+  }
+}

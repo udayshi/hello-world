@@ -1,0 +1,11 @@
+{
+  "name": "udayshi/package",
+  "description": "This is sample package for wordpress plugin.",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Uday Shiwakoti",
+      "email": "shiuday@gmail.com"
+    }
+  ]
+}
