@@ -1,4 +1,4 @@
-#Composer Package
+# Composer Package
 This is boiler plate for composer package.
 
 ## Do not forget to tag the package
@@ -7,47 +7,47 @@ git tag v1.0
 git push --tags
 ```
 
-##Useful command to brushup
-####Package URL
+## Useful command to brushup
+#### Package URL
 packagist.org
 
-####Initialise 
+#### Initialise 
 ```
 composer init
 ```
-####Searching package
+#### Searching package
 ```
 composer search packagename@package version
 ```
-####Installing packages
+#### Installing packages
 ```
 composer require packagename
 ```
-####If we have only composer.json
+#### If we have only composer.json
 ```
 composer install
 ```
-####Update all the packages and change the lock file.
+#### Update all the packages and change the lock file.
 ```
 composer update
 ```
-####Installing development package
+#### Installing development package
 ```
 composer require --dev packagename
 ```
-####dumping autoload
+#### Dumping autoload
 ```
 composer dumpautoload
 ```
-####Removing package
+#### Removing package
 ```
 composer remove packagename
 ```
-####Creating project
+#### Creating project
 ```
 composer create-project packagename foldername
 ```
-####Sample Repo JSON
+#### Sample Repo JSON
 ```
 {
     "name": "udayshi/php_composer_hello-world",
@@ -70,7 +70,7 @@ composer create-project packagename foldername
     }
 }
 ```
-####Sample Client JSON
+#### Sample Client JSON
 ```
 {
   "name": "uday.shiwakoti/ctest",
