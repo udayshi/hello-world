@@ -1,6 +1,7 @@
 {
     "name": "udayshi/php_composer_hello-world",
     "description": "My first Composer project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Uday Shiwakoti",
