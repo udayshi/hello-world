@@ -1,5 +1,5 @@
 # Composer Package
-This is boiler plate for composer package.
+This is boilerplate for composer package.
 
 ## Do not forget to tag the package
 ```
@@ -27,7 +27,7 @@ composer require packagename
 ```
 composer install
 ```
-#### Update all the packages and change the lock file.
+#### Update all the packages including lock file.
 ```
 composer update
 ```
